@@ -1,0 +1,119 @@
+* 
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body
+{  
+    border: 3px solid green;
+    background-color: rgba(193, 233, 132,0.2);
+    min-height: 90vh;
+    min-width: 96vw;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.divMain{
+    padding: 0;
+    margin: auto;
+    
+    height: 85vh;
+    width: 90vw;
+
+}
+.div1,.div3{
+    max-width:100%;
+    min-height: 23%;
+    background-color: rgba(143, 143, 212,0.3);
+    border: 2px rgb(7, 7, 8) solid;
+    margin: 1%;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+
+}
+.div2{
+        max-width: 100%;
+        min-height: 48%;
+        background-color: rgba(233, 182, 134, 0.4);
+        border: 2px solid rgb(175, 209, 226);
+        margin: 1%;
+
+}
+
+.A,.B,.C 
+{   flex-basis: 100px;
+    flex-grow: 1;
+    background-color: rgba(233, 204, 125, 0.616);
+    border: 2px solid rgb(163, 34, 56);
+    margin: 0.5rem;
+}
+
+.B{
+    display: flex;
+    padding: 1rem;
+}
+.B1,.B2 {
+    flex-grow: 1;
+    border: 3px solid black;
+    background-color: silver;
+    margin:0;
+}
+
+.div2{
+    display: flex;
+    
+    gap:5px;
+    padding: 1rem;
+}
+
+.right{
+    flex-grow: 1;
+    border : 2px blue solid;
+    
+}
+.left{
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+    
+
+}
+
+.l1,.l2 {
+    
+    
+    border: 2px rgb(197, 113, 236) solid;
+    min-height: 50%;
+}
+
+.div3 {
+    padding:1rem;
+    display: flex;
+    gap:4px;
+
+}
+
+.d1,.d2,.d3,.d4 {
+    border:2px green solid;
+    background-color: aquamarine;
+    flex-basis: 50px;
+}
+
+.d1,.d4 {
+    flex-grow: 2;
+}
+
+.d3,.d2{
+    flex-grow: 1;
+    border: 2px rgb(235, 89, 215) solid;
+    background-color: rgb(109, 139, 184,0.1);
+}
